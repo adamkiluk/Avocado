@@ -1,28 +1,20 @@
 namespace Avocado.Api
 {
-    using AutoMapper;
-    using Avocado.Api.Filters;
     using Avocado.Application;
     using Avocado.Application.Authentication.Model;
     using Avocado.Application.Interfaces;
-    using Avocado.Application.Signboards.Command.Create;
-    using Avocado.Application.Users;
     using Avocado.Persistence;
     using Avocado.Persistence.Repository;
     using Infrastructure.Implementations;
-    using MediatR;
     using Microsoft.AspNetCore.Authentication.JwtBearer;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.AspNetCore.Http;
-    using Microsoft.AspNetCore.Mvc;
-    using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
     using Microsoft.EntityFrameworkCore;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Hosting;
     using Microsoft.IdentityModel.Tokens;
-    using System.Reflection;
 
     public class Startup
     {

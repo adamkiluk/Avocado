@@ -23,7 +23,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Avocado.Api\Avocado.Api.csproj" />
     <ProjectReference Include="..\..\Avocado.Application\Avocado.Application.csproj" />
     <ProjectReference Include="..\..\Avocado.Domain\Avocado.Domain.csproj" />
     <ProjectReference Include="..\..\Avocado.Infrastructure\Avocado.Infrastructure.csproj" />

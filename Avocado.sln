@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29418.71
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{0D11B143-8771-43DA-A942-938E7C9C0038}"
 EndProject
@@ -15,15 +15,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{0170474E-46E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avocado.FunctionalTests", "Avocado\Tests\Avocado.FunctionalTests\Avocado.FunctionalTests.csproj", "{570E4460-C1C4-4671-B263-A9F5B54AAFF3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avocado.Api", "Avocado\Avocado.Api\Avocado.Api.csproj", "{3281343B-BAB6-4841-A077-FA2904DC184B}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avocado.Domain", "Avocado\Avocado.Domain\Avocado.Domain.csproj", "{66A96B3F-ED98-45E0-99E1-746ACC837888}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avocado.Application", "Avocado\Avocado.Application\Avocado.Application.csproj", "{FA790172-E088-4D3C-956B-4E923AE771EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avocado.Persistence", "Avocado\Avocado.Persistence\Avocado.Persistence.csproj", "{CEBA1616-F8E1-4E17-B4CE-63BCE3FD0217}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avocado.Persistence", "Avocado\Avocado.Persistence\Avocado.Persistence.csproj", "{CEBA1616-F8E1-4E17-B4CE-63BCE3FD0217}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avocado.Infrastructure", "Avocado\Avocado.Infrastructure\Avocado.Infrastructure.csproj", "{D73E01AE-194D-4A96-BA29-738AA796663A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avocado.Infrastructure", "Avocado\Avocado.Infrastructure\Avocado.Infrastructure.csproj", "{D73E01AE-194D-4A96-BA29-738AA796663A}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Avocado.Frontend", "Avocado\Avocado.Frontend\Avocado.Frontend.esproj", "{9A40B713-6408-4832-AB7C-93CFF315D8B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avocado.WebAPI", "Avocado\Avocado.WebAPI\Avocado.WebAPI.csproj", "{CD1EAAF7-6C03-4288-AA04-0653EAE44390}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,10 +41,6 @@ Global
 		{570E4460-C1C4-4671-B263-A9F5B54AAFF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{570E4460-C1C4-4671-B263-A9F5B54AAFF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{570E4460-C1C4-4671-B263-A9F5B54AAFF3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3281343B-BAB6-4841-A077-FA2904DC184B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3281343B-BAB6-4841-A077-FA2904DC184B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3281343B-BAB6-4841-A077-FA2904DC184B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3281343B-BAB6-4841-A077-FA2904DC184B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{66A96B3F-ED98-45E0-99E1-746ACC837888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{66A96B3F-ED98-45E0-99E1-746ACC837888}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66A96B3F-ED98-45E0-99E1-746ACC837888}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -59,6 +57,16 @@ Global
 		{D73E01AE-194D-4A96-BA29-738AA796663A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D73E01AE-194D-4A96-BA29-738AA796663A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D73E01AE-194D-4A96-BA29-738AA796663A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A40B713-6408-4832-AB7C-93CFF315D8B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A40B713-6408-4832-AB7C-93CFF315D8B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A40B713-6408-4832-AB7C-93CFF315D8B7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9A40B713-6408-4832-AB7C-93CFF315D8B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A40B713-6408-4832-AB7C-93CFF315D8B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A40B713-6408-4832-AB7C-93CFF315D8B7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CD1EAAF7-6C03-4288-AA04-0653EAE44390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD1EAAF7-6C03-4288-AA04-0653EAE44390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD1EAAF7-6C03-4288-AA04-0653EAE44390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD1EAAF7-6C03-4288-AA04-0653EAE44390}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,11 +74,12 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{14B2388D-EB3B-43D1-8EA6-E4CC8522AA74} = {09B3CDAD-9CD9-4CA7-B5A3-8EC4F7E94B2A}
 		{570E4460-C1C4-4671-B263-A9F5B54AAFF3} = {09B3CDAD-9CD9-4CA7-B5A3-8EC4F7E94B2A}
-		{3281343B-BAB6-4841-A077-FA2904DC184B} = {0170474E-46EF-444E-9D9A-EADE55991B27}
 		{66A96B3F-ED98-45E0-99E1-746ACC837888} = {0D11B143-8771-43DA-A942-938E7C9C0038}
 		{FA790172-E088-4D3C-956B-4E923AE771EB} = {0D11B143-8771-43DA-A942-938E7C9C0038}
 		{CEBA1616-F8E1-4E17-B4CE-63BCE3FD0217} = {ED09E617-E253-442D-8EB0-4711014490DE}
 		{D73E01AE-194D-4A96-BA29-738AA796663A} = {ED09E617-E253-442D-8EB0-4711014490DE}
+		{9A40B713-6408-4832-AB7C-93CFF315D8B7} = {0170474E-46EF-444E-9D9A-EADE55991B27}
+		{CD1EAAF7-6C03-4288-AA04-0653EAE44390} = {0170474E-46EF-444E-9D9A-EADE55991B27}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {44EC6E7A-1544-4469-8984-3938AB07F642}
