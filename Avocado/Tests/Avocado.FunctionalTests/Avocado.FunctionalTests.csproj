@@ -27,6 +27,7 @@
     <ProjectReference Include="..\..\Avocado.Domain\Avocado.Domain.csproj" />
     <ProjectReference Include="..\..\Avocado.Infrastructure\Avocado.Infrastructure.csproj" />
     <ProjectReference Include="..\..\Avocado.Persistence\Avocado.Persistence.csproj" />
+    <ProjectReference Include="..\..\Avocado.WebAPI\Avocado.WebAPI.csproj" />
     <ProjectReference Include="..\Avocado.Tests\Avocado.Tests.csproj" />
   </ItemGroup>
 

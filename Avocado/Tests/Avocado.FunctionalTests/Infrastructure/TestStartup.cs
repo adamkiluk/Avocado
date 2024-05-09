@@ -1,7 +1,7 @@
 ﻿namespace Avocado.FunctionalTests.Infrastructure
 {
     using Avocado.Application.Interfaces;
-    using Avocado.Api.Filters;
+    using Avocado.WebAPI.Filters;
     using Avocado.Persistence;
     using Avocado.Persistence.Repository;
     using Microsoft.AspNetCore.Builder;
